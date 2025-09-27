@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(243, 96%, 9%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+button{
+    display: flex;
+    background-color:  hsl(243, 27%, 20%);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    gap: 2px;
+    cursor: pointer;
+}
+.icon_units{
+    width: 19px;
+    height: 15px;
+}
+.icon_dropdown{
+    height: 15px;
+    width: 19px;
+}
+.How{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    gap: .5rem;
+    border: none;
+}
+input{
+    width: 18rem;
+    height: 2rem;
+    background-color: hsl(243, 23%, 30%);
+    border: 1rem;
+}
+.But{
+    background-color: hsl(233, 67%, 56%);
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.input{
+    display: flex;
+    background-color: hsl(243, 23%, 30%);
+    height: 2rem;
+    border: none;
+}
+.icon-search{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-top: 10px;
+}
+.Germany{
+    color: white;
+    background: url(./bg-today-large.svg);
+    background-size: cover;
+    height: 50vh;
+    width: 65vw;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    border-bottom-left-radius: 1.5rem;
+}
+.sun1{
+    display: flex;
+    gap: 1rem;
+}
+.number{
+    font-size: 5rem;
+}
+h2{
+    padding-bottom: .8rem;
+}
+.feels_like{
+    color: white;
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+.first1{
+    width: 13.6vw;
+    height: 17vh;
+    background-color: hsl(243, 23%, 30%);
+    border-radius: .5rem;
+    padding: 1.5rem;
+}
+.second2{
+    width: 13.6vw;
+    background-color: hsl(243, 23%, 30%);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    height: 17vh;
+}
+.third3{
+    width: 13.6vw;
+    background-color: hsl(243, 23%, 30%);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    height: 17vh;
+}
+.fourth{
+    width: 13.6vw;
+    background-color: hsl(243, 23%, 30%);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    height: 17vh;
+}
+h4{
+    color: white;
+}
+.Days{
+    display: flex;
+    margin: 1rem;
+    gap: 1.5rem;
+}
+p{
+    color: white;
+}
+.hmm{
+    display: flex;
+    justify-content: space-between;
+}
+.weeks{
+    height: 60px;
+    width: 80px;
+}
+.Tue{
+    background-color: hsl(243, 23%, 30%) ;
+    border-radius: 5px;
+    padding: .5rem;
+}
+.oo{
+    display: flex;
+    justify-self: center;
+}
+main{
+    display: flex;
+    gap: .5rem;
+}
+.fore{
+    display: flex;
+    gap: 32%;
+}
+.Hourly{
+    height: 106vh;
+    background-color:hsl(243, 23%, 30%) ;
+    padding: 2rem;
+    border-radius: .5rem;
+    width: 23rem;
+}
+.Tab{
+    height: 1rem;
+    padding-bottom: 1rem;
+    background-color: hsl(243, 23%, 30%);
+    margin-bottom: 2rem;
+    
+}
+.inner{
+    display: flex;
+
+}
+.pm{
+    display: flex;
+    justify-content: space-between;
+    height: 9.5vh;
+    width: 25vw;
+    background-color:  hsl(243, 23%, 24%);
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    padding-top: 1rem;
+    padding-right: .5rem;
+
+}
+.weeks01{
+  padding-bottom: 3rem;  
+  height: 70px;
+  width: 70px;
+  flex-shrink: 0%;
+}
